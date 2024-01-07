@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-#include "data/dungeon_app.h"
+#include "data/prelude.h"
 
 
 int main() {

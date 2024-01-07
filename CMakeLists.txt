@@ -11,4 +11,6 @@ add_executable(cfun main.c
         meta/class.h
         json/parser.c
         json/parser.h
+        json/prelude.h
+        data/prelude.h
 )
