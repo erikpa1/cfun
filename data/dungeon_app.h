@@ -1,11 +1,14 @@
 
 
 
-
 struct DungeonApp {
+    int value;
 
 };
 
 
-void dng_run(float number);
+struct DungeonApp dng_new_app();
+
+
+void dng_run(struct DungeonApp * number);
 

@@ -7,4 +7,8 @@ add_executable(cfun main.c
         data/dungeon.h
         data/dungeon.c
         data/dungeon_app.c
-        data/dungeon_app.h)
+        data/dungeon_app.h
+        meta/class.h
+        json/parser.c
+        json/parser.h
+)

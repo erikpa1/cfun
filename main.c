@@ -7,7 +7,9 @@
 int main() {
     printf("Hello, World!\n");
 
-    dng_run(10);
+    struct DungeonApp app = dng_new_app();
+
+    dng_run(&app);
 
     return 0;
 }
