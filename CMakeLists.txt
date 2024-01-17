@@ -4,13 +4,17 @@ project(cfun C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(cfun main.c
-        data/dungeon.h
-        data/dungeon.c
-        data/dungeon_app.c
-        data/dungeon_app.h
+        apps/dungeon/dungeon.h
+        apps/dungeon/dungeon.c
+        apps/dungeon/dungeon_app.c
+        apps/dungeon/dungeon_app.h
+        apps/dungeon/prelude.h
         meta/class.h
         json/parser.c
         json/parser.h
         json/prelude.h
-        data/prelude.h
+        mat/lcgrand.h
+        apps/sims/singe_server_queuing_system.h
+        apps/sims/singe_server_queuing_system.c
+        mat/lcgrand.c
 )
