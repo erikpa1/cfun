@@ -2,10 +2,12 @@
 
 #include "apps/dungeon/prelude.h"
 #include "apps/sims/singe_server_queuing_system.h"
+#include "apps/vulkanfun/vulkan_entry.h"
 
 
 const int SIM_RUN = 0;
 const int DUNGEON_RUN = 1;
+const int VULKAN_FUN = 2;
 
 int main() {
 
@@ -23,8 +25,10 @@ int main() {
 //        DungeonApp app = dng_new_app();
 //        dng_run(&app);
         dng::Start();
-
+    } else if (active == VULKAN_FUN) {
+        vfun::start();
     }
+
 
     dng_new_app();
 

@@ -2,5 +2,5 @@
 # To keep your changes, remove these comment lines, but the plugin won't be able to modify your requirements
 
 requirements:
-  - "libcurl/8.5.0"
+  - "glad/0.1.36"
   - "glfw/3.3.8"
