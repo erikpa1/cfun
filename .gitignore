@@ -1,5 +1,6 @@
-
-
+conan_provider.cmake
+build/
+CMakeUserPresets.json
 #Cmake error
 cmake-build-debug
 .idea/
