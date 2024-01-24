@@ -1,4 +1,4 @@
-#pragma INCLUDE_ONCE
+#pragma once
 
 
 namespace dng {
